@@ -1,13 +1,15 @@
+> 202018
+
 > Flask-JWT-Extended / Flask-JWT-Simple <br>
 > Flask-Limiter <br>
 > Flask-Talisman <br>
 > Flask-RESTful
 > Flask-Login
 
--   Add JWT Secret Key : `app.config['JWT_SECRET_KEY'] = 'your_strong_secret_key_here`
--   Add JWT Algorithm :`app.config['JWT_ALGORITHM'] = 'HS256'  # Specify the algorithm explicitly`
--   Add token expiration (TTL, RTTL) as short as possible :`app.config['JWT_ACCESS_TOKEN_EXPIRES'] = timedelta(minutes=15)  # Example: 15 minutes expiration`
--   Keep payload small :`jwt_payload_handler = lambda x: {'user_id': x.id}  # Example: Only include user ID`
+- Add JWT Secret Key : `app.config['JWT_SECRET_KEY'] = 'your_strong_secret_key_here`
+- Add JWT Algorithm :`app.config['JWT_ALGORITHM'] = 'HS256'  # Specify the algorithm explicitly`
+- Add token expiration (TTL, RTTL) as short as possible :`app.config['JWT_ACCESS_TOKEN_EXPIRES'] = timedelta(minutes=15)  # Example: 15 minutes expiration`
+- Keep payload small :`jwt_payload_handler = lambda x: {'user_id': x.id}  # Example: Only include user ID`
 
 ```
 Validate content-type on request header
@@ -49,7 +51,71 @@ def endpoint():
 
 database , classes, url, rest classes
 
-> app 
->
->
->
+> app
+
+```shell
+
+    # Use the nested function to create and write content into files
+    writeContent "model.py" "from mongoengine import Document, StringField
+
+class ${MODEL}DB(Document):
+    meta = {
+        'collection': '${LOWER}'  # Specify the collection name here
+    }"
+
+    writeContent "rest.py" "from flask_restful import Resource
+from flask import request
+from .task import ${MODEL}Task
+
+#REVIEW - Create Restful model ${MODEL}
+
+class ${MODEL}(Resource):
+
+    def get(self):
+        return
+
+    def post(self):
+        return
+
+    def put(self):
+        return
+
+    def delete(self):
+        return"
+
+    writeContent "task.py" "from .model import ${MODEL}DB
+class ${MODEL}Task():
+    pass
+    "
+
+    writeContent "url.py" "from flask_restful import Api
+from .rest import ${MODEL}
+from flask import Blueprint
+
+${LOWER}_bp = Blueprint('{LOWER}',__name)
+api = Api(${LOWER}_bp)
+
+#REVIEW - The URL route for mapping with the request
+api.add_resource(${MODEL}, '/${LOWER}')"
+```
+
+## Process
+
+Input data
+add field named output
+do pre process and store in output field
+
+Print in this format:
+
+Label 1: JUDGEMENTAL / **
+Label 2: STEREOTYPING-DOMINANCE / **
+Input :
+Pre-Process :
+Key and Index :
+Choose Key :
+
+IDEOLOGICAL-INEQUALITY
+STEREOTYPING-DOMINANCE
+OBJECTIFICATION
+SEXUAL-VIOLENCE
+MISOGYNY-NON-SEXUAL-VIOLENCE

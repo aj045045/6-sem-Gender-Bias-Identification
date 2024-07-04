@@ -7,7 +7,6 @@ function LoginPage() {
     const router = useRouter();
     useEffect(() => {
         if (path === "/") {
-            router.prefetch('/home');
             router.push('/home');
         }
     })

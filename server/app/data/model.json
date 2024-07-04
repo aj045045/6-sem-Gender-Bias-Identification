@@ -1,0 +1,557 @@
+[
+    {
+        "keyword": "everydaysexism",
+        "category_1": "REPORTED",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "argue",
+        "category_1": "REPORTED",
+        "category_2": "SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "idea",
+        "category_1": "JUDGEMENTAL",
+        "category_2": "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "man",
+        "category_1": "REPORTED",
+        "category_2": "STEREOTYPING-DOMINANCE"
+    },
+    {
+        "keyword": "drunk",
+        "category_1": "REPORTED",
+        "category_2": "STEREOTYPING-DOMINANCE"
+    },
+    {
+        "keyword": "fact",
+        "category_1": "JUDGEMENTAL",
+        "category_2": "STEREOTYPING-DOMINANCE"
+    },
+    {
+        "keyword": "someone",
+        "category_1": "DIRECT",
+        "category_2": "SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "party",
+        "category_1": "REPORTED",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "spent",
+        "category_1": "REPORTED",
+        "category_2": "STEREOTYPING-DOMINANCE"
+    },
+    {
+        "keyword": "woman",
+        "category_1": "REPORTED",
+        "category_2": "STEREOTYPING-DOMINANCE"
+    },
+    {
+        "keyword": "blame",
+        "category_1": "JUDGEMENTAL",
+        "category_2": "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "married",
+        "category_1": "REPORTED",
+        "category_2": "STEREOTYPING-DOMINANCE"
+    },
+    {
+        "keyword": "anyone",
+        "category_1": "REPORTED",
+        "category_2": "SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "sexist",
+        "category_1": "DIRECTJUDGEMENTAL",
+        "category_2": "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "time",
+        "category_1": "REPORTED",
+        "category_2": "SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "bitch",
+        "category_1": "DIRECT",
+        "category_2": "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "community",
+        "category_1": "JUDGEMENTAL",
+        "category_2": "IDEOLOGICAL-INEQUALITY"
+    },
+    {
+        "keyword": "wealth",
+        "category_1": "JUDGEMENTAL",
+        "category_2": "IDEOLOGICAL-INEQUALITY"
+    },
+    {
+        "keyword": "blonde",
+        "category_1": "DIRECTJUDGEMENTAL",
+        "category_2": "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "hot",
+        "category_1": "DIRECT",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "feminine",
+        "category_1": "DIRECT",
+        "category_2": "IDEOLOGICAL-INEQUALITY"
+    },
+    {
+        "keyword": "prostitute",
+        "category_1": "DIRECT",
+        "category_2": "STEREOTYPING-DOMINANCE"
+    },
+    {
+        "keyword": "date",
+        "category_1": "DIRECT",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "sex",
+        "category_1": "DIRECT",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "tit",
+        "category_1": "DIRECT",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "trophy",
+        "category_1": "DIRECT",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "wife",
+        "category_1": "DIRECT",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "fantasy",
+        "category_1": "DIRECT",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "link",
+        "category_1": "REPORTED",
+        "category_2": "SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "street",
+        "category_1": "REPORTED",
+        "category_2": "SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "guy",
+        "category_1": "DIRECT",
+        "category_2": "STEREOTYPING-DOMINANCE"
+    },
+    {
+        "keyword": "hormone",
+        "category_1": "DIRECT",
+        "category_2": "IDEOLOGICAL-INEQUALITY"
+    },
+    {
+        "keyword": "misandry",
+        "category_1": "DIRECT",
+        "category_2": "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "cock",
+        "category_1": "DIRECT",
+        "category_2": "SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "pant",
+        "category_1": "DIRECT",
+        "category_2": "SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "ex",
+        "category_1": "JUDGEMENTAL",
+        "category_2": "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "misogynist",
+        "category_1": "JUDGEMENTAL",
+        "category_2": "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "whore",
+        "category_1": "DIRECTJUDGEMENTAL",
+        "category_2": "STEREOTYPING-DOMINANCE"
+    },
+    {
+        "keyword": "video",
+        "category_1": "REPORTED",
+        "category_2": "SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "harassment",
+        "category_1": "REPORTED",
+        "category_2": "SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "advantage",
+        "category_1": "REPORTED",
+        "category_2": "SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "attraction",
+        "category_1": "REPORTEDJUDGEMENTAL",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "carnival",
+        "category_1": "REPORTEDJUDGEMENTAL",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "lady",
+        "category_1": "DIRECT",
+        "category_2": "STEREOTYPING-DOMINANCE"
+    },
+    {
+        "keyword": "feminist",
+        "category_1": "JUDGEMENTAL",
+        "category_2": "IDEOLOGICAL-INEQUALITY"
+    },
+    {
+        "keyword": "website",
+        "category_1": "REPORTEDJUDGEMENTAL",
+        "category_2": "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "misogyny",
+        "category_1": "REPORTEDJUDGEMENTAL",
+        "category_2": "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "relationship",
+        "category_1": "REPORTED",
+        "category_2": "STEREOTYPING-DOMINANCE"
+    },
+    {
+        "keyword": "theft",
+        "category_1": "DIRECT",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "skirt",
+        "category_1": "DIRECT",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "thick",
+        "category_1": "REPORTED",
+        "category_2": "IDEOLOGICAL-INEQUALITY"
+    },
+    {
+        "keyword": "value",
+        "category_1": "JUDGEMENTAL",
+        "category_2": "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "girl",
+        "category_1": "REPORTED",
+        "category_2": "SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "antithesis",
+        "category_1": "JUDGEMENTAL",
+        "category_2": "STEREOTYPING-DOMINANCE"
+    },
+    {
+        "keyword": "tracker",
+        "category_1": "JUDGEMENTALREPORTEDDIRECT",
+        "category_2": "SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "body",
+        "category_1": "DIRECT",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "divorce",
+        "category_1": "DIRECT",
+        "category_2": "IDEOLOGICAL-INEQUALITY"
+    },
+    {
+        "keyword": "grown",
+        "category_1": "DIRECT",
+        "category_2": "STEREOTYPING-DOMINANCE"
+    },
+    {
+        "keyword": "group",
+        "category_1": "REPORTED",
+        "category_2": "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "id",
+        "category_1": "DIRECT",
+        "category_2": "IDEOLOGICAL-INEQUALITY"
+    },
+    {
+        "keyword": "change",
+        "category_1": "DIRECT",
+        "category_2": "IDEOLOGICAL-INEQUALITY"
+    },
+    {
+        "keyword": "banging",
+        "category_1": "DIRECTJUDGEMENTAL",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "phallocentrism",
+        "category_1": "DIRECT",
+        "category_2": "SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "desire",
+        "category_1": "DIRECT",
+        "category_2": "SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "holder",
+        "category_1": "DIRECT",
+        "category_2": "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "supporter",
+        "category_1": "DIRECT",
+        "category_2": "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "cult",
+        "category_1": "DIRECT",
+        "category_2": "IDEOLOGICAL-INEQUALITY"
+    },
+    {
+        "keyword": "world",
+        "category_1": "DIRECT",
+        "category_2": "IDEOLOGICAL-INEQUALITY"
+    },
+    {
+        "keyword": "pussy",
+        "category_1": "DIRECT",
+        "category_2": "SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "husband",
+        "category_1": "REPORTED",
+        "category_2": "STEREOTYPING-DOMINANCE"
+    },
+    {
+        "keyword": "congregation",
+        "category_1": "REPORTED",
+        "category_2": "STEREOTYPING-DOMINANCE"
+    },
+    {
+        "keyword": "rookie",
+        "category_1": "DIRECT",
+        "category_2": "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "whip",
+        "category_1": "REPORTED",
+        "category_2": "SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "fertile",
+        "category_1": "REPORTED",
+        "category_2": "SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "period",
+        "category_1": "DIRECT",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "tease",
+        "category_1": "DIRECT",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "legislation",
+        "category_1": "JUDGEMENTAL",
+        "category_2": "IDEOLOGICAL-INEQUALITY"
+    },
+    {
+        "keyword": "rape",
+        "category_1": "JUDGEMENTAL",
+        "category_2": "IDEOLOGICAL-INEQUALITY"
+    },
+    {
+        "keyword": "society",
+        "category_1": "JUDGEMENTAL",
+        "category_2": "IDEOLOGICAL-INEQUALITY"
+    },
+    {
+        "keyword": "assumption",
+        "category_1": "JUDGEMENTAL",
+        "category_2": "IDEOLOGICAL-INEQUALITY"
+    },
+    {
+        "keyword": "equality",
+        "category_1": "JUDGEMENTAL",
+        "category_2": "IDEOLOGICAL-INEQUALITY"
+    },
+    {
+        "keyword": "regression",
+        "category_1": "REPORTED",
+        "category_2": "STEREOTYPING-DOMINANCE"
+    },
+    {
+        "keyword": "count",
+        "category_1": "DIRECT",
+        "category_2": "MISOGYNY-NON-SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "lot",
+        "category_1": "JUDGEMENTAL",
+        "category_2": "SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "beer",
+        "category_1": "REPORTED",
+        "category_2": "STEREOTYPING-DOMINANCE"
+    },
+    {
+        "keyword": "victim",
+        "category_1": "REPORTED",
+        "category_2": "SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "something",
+        "category_1": "JUDGEMENTAL",
+        "category_2": "STEREOTYPING-DOMINANCE"
+    },
+    {
+        "keyword": "gender",
+        "category_1": "DIRECTJUDGEMENTAL",
+        "category_2": "IDEOLOGICAL-INEQUALITY"
+    },
+    {
+        "keyword": "identity",
+        "category_1": "DIRECTJUDGEMENTAL",
+        "category_2": "IDEOLOGICAL-INEQUALITY"
+    },
+    {
+        "keyword": "phrase",
+        "category_1": "JUDGEMENTAL",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "asshole",
+        "category_1": "JUDGEMENTAL",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "cheer",
+        "category_1": "JUDGEMENTAL",
+        "category_2": "STEREOTYPING-DOMINANCE"
+    },
+    {
+        "keyword": "power",
+        "category_1": "DIRECT",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "player",
+        "category_1": "DIRECT",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "transgender",
+        "category_1": "REPORTED",
+        "category_2": "IDEOLOGICAL-INEQUALITY"
+    },
+    {
+        "keyword": "activist",
+        "category_1": "REPORTED",
+        "category_2": "IDEOLOGICAL-INEQUALITY"
+    },
+    {
+        "keyword": "growth",
+        "category_1": "DIRECT",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "part",
+        "category_1": "JUDGEMENTAL",
+        "category_2": "STEREOTYPING-DOMINANCE"
+    },
+    {
+        "keyword": "prize",
+        "category_1": "REPORTED",
+        "category_2": "STEREOTYPING-DOMINANCE"
+    },
+    {
+        "keyword": "penis",
+        "category_1": "JUDGEMENTAL",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "envy",
+        "category_1": "JUDGEMENTAL",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "title",
+        "category_1": "JUDGEMENTAL",
+        "category_2": "STEREOTYPING-DOMINANCE"
+    },
+    {
+        "keyword": "smash",
+        "category_1": "DIRECT",
+        "category_2": "SEXUAL-VIOLENCE"
+    },
+    {
+        "keyword": "vote",
+        "category_1": "DIRECT",
+        "category_2": "IDEOLOGICAL-INEQUALITY"
+    },
+    {
+        "keyword": "job",
+        "category_1": "JUDGEMENTAL",
+        "category_2": "IDEOLOGICAL-INEQUALITY"
+    },
+    {
+        "keyword": "blow",
+        "category_1": "REPORTED",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "respect",
+        "category_1": "REPORTED",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "objectification",
+        "category_1": "REPORTED",
+        "category_2": "OBJECTIFICATION"
+    },
+    {
+        "keyword": "sexuality",
+        "category_1": "DIRECTREPORTEDJUDGEMENTAL",
+        "category_2": "STEREOTYPING-DOMINANCE"
+    },
+    {
+        "keyword": "heroic",
+        "category_1": "JUDGEMENTALREPORTED",
+        "category_2": "STEREOTYPING-DOMINANCE"
+    },
+    {
+        "keyword": "life",
+        "category_1": "JUDGEMENTALREPORTED",
+        "category_2": "STEREOTYPING-DOMINANCE"
+    }
+]

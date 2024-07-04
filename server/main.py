@@ -1,5 +1,5 @@
 from mongoengine import connect
-from config import app
+from app.config import app
 
 
 def greeting():

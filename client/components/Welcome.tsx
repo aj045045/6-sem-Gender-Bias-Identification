@@ -13,7 +13,7 @@ function Welcome() {
             <div className="text-gray-600  md:text-2xl text-lg font-bold uppercase tracking-wide [word-spacing:10px]">Welcome to Gender Bias Detection System</div>
             <div className="mx-auto md:mt-6 mt-3 flex flex-row space-x-5 items-center">
                 <div className="text-gray-600 md:text-lg text-sm bg-gray-300 md:px-3 md:py-2 px-1.5 py-1 rounded-lg border-3 font-semibold border-gray-400">Start Your Chat now</div>
-                <Button onClick={handleSignUp} color="primary" variant="shadow" className="md:text-xl text-lg">Sign Up</Button>
+                <Button onClick={handleSignUp} color="primary" variant="shadow" className="md:text-xl text-lg" id="sign-up">Sign Up</Button>
             </div>
         </div>
     </>)

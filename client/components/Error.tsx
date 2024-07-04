@@ -51,6 +51,11 @@ export default function ErrorTag() {
         },
     };
     const dataToggle = errorData[error.type];
+    
+    const onCloseHandler = () => {
+        dispatch(remove_error());
+        onClose();
+    }
     useEffect(() => {
         if (error.setError) {
             const openModel = () => {
@@ -59,9 +64,8 @@ export default function ErrorTag() {
                         onOpen();
                     }
                     setTimeout(() => {
-                        dispatch(remove_error());
-                        onClose();
-                    }, 3000);
+                        onCloseHandler();
+                    }, 2000);
                 }, 1000);
             }
             openModel();
@@ -70,15 +74,17 @@ export default function ErrorTag() {
     return (
         <>
             <Modal
+                hideCloseButton
                 size="md"
                 backdrop="opaque"
                 isOpen={isOpen}
                 onClose={onClose}
+                isKeyboardDismissDisabled
                 isDismissable={false}
                 className={`flex self-start mt-5 ${dataToggle?.modal}`}
             >
                 <ModalContent>
-                    {(onClose) => (
+                    {() => (
                         <>
                             <ModalHeader
                                 className={`flex select-none flex-col gap-1 font-sans ${dataToggle?.bgColor} capitalize text-xl tracking-wider`}
@@ -108,7 +114,7 @@ export default function ErrorTag() {
                             <ModalFooter>
                                 <Button
                                     className="text-lg font-semibold text-white w-24 rounded-lg bg-orange-600 hover:bg-orange-500 shadow-md shadow-orange-400 border-b-4 border-b-orange-700 mx-auto"
-                                    onPress={onClose}
+                                    onPress={onCloseHandler}
                                 >
                                     Close
                                 </Button>

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function HeroHeader() {
     return (
-        <div className="flex flex-col md:flex-row h-96 select-none">
+        <div id="home" className="flex flex-col md:flex-row h-96 select-none">
             <div className="text-justify self-center items-center md:w-3/5 w-4/5 md:px-10 px-0  md:mt-10 mt-5">
                 <div className="text-4xl  font-semibold uppercase text-shadow-md">
                     Men of quality respect women equality

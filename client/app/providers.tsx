@@ -3,13 +3,22 @@ import ErrorTag from "@/components/Error";
 import store from "@/redux/store";
 import { NextUIProvider } from "@nextui-org/react";
 import { Provider } from "react-redux";
+import { inter } from "@/lang";
 
-export function Providers({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+    children,
+}: Readonly<{ children: React.ReactNode }>) {
     return (
-        <Provider store={store}>
-            <NextUIProvider>
-                <ErrorTag />
-                {children}</NextUIProvider>
-        </Provider>
+        <html lang="en" className="dark">
+            <body className={`${inter.className} pb-10 min-h-screen`} >
+                <Provider store={store}>
+                    <NextUIProvider>
+                        <ErrorTag />
+                        {children}
+                    </NextUIProvider>
+                </Provider>
+            </body>
+        </html >
     );
 }
+

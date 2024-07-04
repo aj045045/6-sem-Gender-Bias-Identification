@@ -53,9 +53,11 @@ function Register() {
             return response.json();
         }).then(data => {
             dispatch(toggle_error({ type: data.status, data: data.message }));
+            if (data.status == "success") {
+                router.back()
+            }
         });
     }
-
     const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
         const { name, value } = e.target;
         switch (name) {

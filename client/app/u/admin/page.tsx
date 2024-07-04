@@ -1,9 +1,10 @@
+'use client'
+import { InputComp } from "@/components";
 function AdminPage() {
-    return (
-        <>
-            <div>Admin Page</div>
-        </>
-    );
+
+    return <>
+        <InputComp />
+    </>
 }
 
 export default AdminPage;

@@ -1,0 +1,9 @@
+[
+  {
+    "id": "200040",
+    "tweet": "@oliophi You have rage issues that manifest in an internet addiction. It at least started outwardly during gamergate and when that died you needed a new fix, you already had your views on trans people but we became the new vessel for your anger.You need help.",
+    "labels_task1": "['NO', 'YES', 'NO', 'NO', 'NO', 'YES']",
+    "labels_task2": "['-', 'REPORTED', '-', '-', '-', 'REPORTED']",
+    "labels_task3": "[['-'], ['IDEOLOGICAL-INEQUALITY'], ['-'], ['-'], ['-'], ['IDEOLOGICAL-INEQUALITY']]"
+  }
+]
